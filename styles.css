@@ -1,19 +1,27 @@
-.navbar {
-    background-color:beige;
-    display: flex;
-    justify-content: center;
-  }
-  
-.navbar a {
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    padding: 8px 30px 8px 30px;   
+body {
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    background-color: #eceada; /* Header background color */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    padding: 5px 25px; 
+}
 
 .logo img {
-    max-width: 110px;
-    text-align: center;
-
+    width: 100px;
+    height: auto; 
+    
+}
+.navbar a {
+    
+    margin-right: 40px;
+}
+.navbar {
+    padding: 20px;
 }
