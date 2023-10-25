@@ -1,0 +1,19 @@
+.navbar {
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+  }
+  
+.navbar a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 8px 30px 8px 30px;   
+}
+
+
+.logo img {
+    max-width: 110px;
+    text-align: center;
+
+}
