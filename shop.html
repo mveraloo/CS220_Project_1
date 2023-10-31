@@ -20,17 +20,105 @@
 </header> 
 <body>  
 
-<!--array image slider-->
-  <div class="wrap">
-    <button id="btn1"><h1><</h1></button>
-      <img src="" id="slide">
-    <button id="btn2"><h1>></h1></button>
+<!-- slideshow-->
+  <h1>Shop New Arrivals</h1>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/product2-1.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/product2-2.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/product2-3.jpeg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    </div><br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div> 
+  <!--end of slideshow-->
+
+  <!--gallery - middle row-->
+  <div class="row2">
+    <h1 id="section-2">Women's Shoes</h1>
   </div>
 
-  <script src="myScript.js"></script>
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/product1.jpeg">
+        <img src="images/product1.jpeg" width="600" height="400">
+      </a>
+      <div class="desc">Women's Shoes: $75</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/product2.jpg">
+        <img src="images/product2.jpg" width="600" height="400">
+      </a>
+      <div class="desc">Women's Shoes: $75</div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/product3.jpg">
+        <img src="images/product3.jpg" width="600" height="400">
+      </a>
+      <div class="desc">Women's Shoes: $75</div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+<!--end of gallery-->  
+
+<!--gallery - bottom row-->
+<div class="row3">
+  <h1 id="section-3">Women's Boots</h1>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/product3-1.jpeg">
+      <img src="images/product3-1.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Women's Boots: $75</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/product3-2.jpeg">
+      <img src="images/product3-2.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Women's Boots: $75</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/product3-3.jpeg">
+      <img src="images/product3-3.jpeg" width="600" height="400">
+    </a>
+    <div class="desc">Women's Boots: $75</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<!--end of gallery-->  
+  
+<script src="myScript.js"></script>
 
 <footer>
-   <h5>@Copyright 2023: SOLEBIVE | Salt Lake CIty, Utah | contact@solebive.com</h5>
+   <h5>@Copyright 2023: SOLEBIVE | Salt Lake City, Utah | contact@solebive.com</h5>
 </footer> 
 </body>
 </html>
