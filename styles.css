@@ -254,7 +254,7 @@ h1 {
 .mySlides {
     display: none;
 }
-img {
+.mySlides img {
     width: 100%;
 }
 .prev, .next {
