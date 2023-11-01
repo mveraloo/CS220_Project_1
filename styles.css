@@ -7,15 +7,20 @@ body {
 
 header {
     background-color: #eceada; /* Header background color */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 1000;
+    border-bottom: 5px solid #101c4e;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 25px; 
+    padding: 0 25px; 
     height: 70px;
-    
 }
 
 .logo img {
@@ -36,7 +41,8 @@ header {
     color: #101c4e;
 }
 .navbar {
-    justify-content: center
+    justify-content: center;
+    padding-top: 7px;
 }
 
 /* Home page */
