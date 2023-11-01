@@ -40,7 +40,7 @@ header {
 
 }
 
-.content h1 {
+.content p {
     position: absolute;
     color: white;
     margin-top: 200px;
@@ -49,3 +49,18 @@ header {
 }
 
 
+.container {
+    background-color: #dcc6b7;
+    color: black;
+    text-align: center; /* Center-align the text within the container */
+    padding: 20px;
+}
+
+.container p {
+    padding: 0px 90px 0px 90px;
+    justify-content: center;
+}
+
+footer {
+    background-color: #eceada; /* Header background color */
+}
