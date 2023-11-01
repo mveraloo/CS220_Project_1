@@ -4,17 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>product</title>
+    <title>Shop</title>
 </head>
-<body>
-<ul>
-    <li><a href="index.html">HOME</a>
-    <li><a href="about.html" target="_blank">ABOUT</a></li>
-    <li><a href="shop.html" target="_blank">SHOP</a></li>
-  </ul>
+<header>
+  <div class="header-content">
+      <div class="logo">
+          <img src="images/logo2.png" alt="ogo">
+      </div>
+      <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT US</a>
+        <a href="shop.html">SHOP</a>
+      </div>
+  </div>
+</header> 
+<body> 
+
+<!-- slideshow-->
+  <div class="title">
+    <h1>Shop New Arrivals</h1>
+  </div>
   
-<footer>
-   <h5>@Copyright 2023: SOLEBIVE | Salt Lake CIty, Utah | contact@solebive.com</h5>
-</footer> 
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/product2-1.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/product2-2.jpeg" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/product2-3.jpeg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    </div><br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div> 
+  <!--end of slideshow-->
+
+  <!--gallery - middle row-->
+  <div class="products">
+    <div class="row2">
+      <h2 id="section-2">Women's Shoes</h2>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/product1.jpeg">
+          <img src="images/product1.jpeg" width="600" height="400">
+        </a>
+        <div class="desc">Women's Shoes: $75</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/product2.jpg">
+          <img src="images/product2.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Women's Shoes: $75</div>
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="images/product3.jpg">
+          <img src="images/product3.jpg" width="600" height="400">
+        </a>
+        <div class="desc">Women's Shoes: $75</div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  
+<!--end of gallery-->  
+
+<!--gallery - bottom row-->
+  <div class="row3">
+    <h2 id="section-3">Women's Boots</h2>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/product3-1.jpeg">
+        <img src="images/product3-1.jpeg" width="600" height="400">
+      </a>
+      <div class="desc">Women's Boots: $75</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/product3-2.jpeg">
+        <img src="images/product3-2.jpeg" width="600" height="400">
+      </a>
+      <div class="desc">Women's Boots: $75</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="images/product3-3.jpeg">
+        <img src="images/product3-3.jpeg" width="600" height="400">
+      </a>
+      <div class="desc">Women's Boots: $75</div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<!--end of gallery-->  
+  
+<script src="myScript.js"></script>
 </body>
+<footer>
+  <div class="footer-container">
+      <div class="column">
+          <h3>Subscribe</h3>
+          <p>Receive product news and</br>updates in your inbox.</p>
+          <input type="email" placeholder="Enter your email">
+          <button>Subscribe</button>
+      </div>
+      <div class="column">
+          <h3>Pages</h3>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">SHOP</a></li>
+              <li><a href="shop.html">ABOUT US</a></li>
+          </ul>
+      </div>
+      <div class="column">
+          <h3>Follow Us</h3>
+          <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+          </ul>
+      </div>
+  </div>
+  <p>&copy; 2023: SOLEVIBE | Salt Lake City, Utah | contact@solevive.com</p>
+</footer>
+
 </html>
